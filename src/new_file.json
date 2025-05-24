@@ -1,0 +1,7 @@
+{
+  "_id": "ObjectId",
+  "username": "string",
+  "email": "string",
+  "password": "hashed-string", // 加密存储
+  "createdAt": "date"
+}
