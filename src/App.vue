@@ -12,6 +12,7 @@
 		methods: {
 			callBackendFunction() {
 				axios.get("http://localhost:8080/print") // 后端地址和端口需与实际一致
+				//123
 					.then(response => {
 						console.log(response.data);
 					})
